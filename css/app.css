@@ -4,19 +4,83 @@
   box-sizing: border-box;
 }
 
-#lifeline {
+#slide{
   position:absolute;
-  top:10rem;
+  top:-14rem;
+  left:-14rem;
+  opacity:0.5;
 }
 
+#slide1{
+  z-index:1;
+  position:absolute;
+  top:-25rem;
+  left:-10rem;
+  height:100rem;
+  opacity:0.2;
+
+}
+ul .selected{
+  font-weight:200px;
+}
+#date{
+  color:red;
+  font-family: 'PT Sans Narrow', sans-serif;
+  position:absolute;
+  top:0rem;
+  left:-5rem;
+
+}
+#date1{
+  font-family: 'PT Sans Narrow', sans-serif;
+  color:red;
+  font-size:40px;
+  position:absolute;
+  top:3.5rem;
+ left:1rem;
+}
+.parents{
+  position:absolute;
+  bottom:-5rem;
+}
+
+#note3{
+  z-index:1;
+  position:absolute;
+  top:-8rem;
+  transform:rotate(-20deg);
+  height:60rem;
+  left:-10rem;
+  opacity:0.5;
+}
+.lifeline{
+  position:absolute;
+  top:4.4rem;
+}
+.PA{
+  opacity:0.7;
+  z-index:1;
+  position:absolute;
+  top:-5rem;
+  left:10rem;
+}
 main {
 	background-color:#FFF599;
   overflow: hidden;
 }
+#p1{
+  font-size:20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  position:absolute;
+  top:6rem;
+
+}
 #p2{
+  font-size:20px;
+  font-family: 'PT Sans Narrow', sans-serif;
 	z-index:2;
   position:absolute;
-  bottom:5rem;
+  bottom:0rem;
   right:5rem;
 }
 
@@ -24,7 +88,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 3px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -32,22 +96,23 @@ hr {
 .hline-bottom {
 	z-index:1;
     padding-bottom: 400px;
-    border-bottom: 5px solid #000; 
+    border-bottom: 6px solid #000; 
     color:black/* whichever color you prefer */
 }
 #malcom{
+  z-index:2;
 	position:absolute;
-	top:-25rem;
-	left:10rem;
-	height:90rem;
+	top:-15rem;
+	left:25rem;
+	height:70rem;
 }
 #note2{
 	transform:rotate(20deg);
 	opacity:0.5;
-	right:45rem;
-	top:-15rem;
+	right:30rem;
+	top:-25rem;
 	position:absolute;
-	height:75rem;
+	height:100rem;
 }
 .name{
 	z-index:2;
@@ -57,7 +122,7 @@ hr {
 }
 
 .musicnote{
-	z-index:1;
+	z-index:2;
 	position:absolute;
 	top:25px;
 	left:2px;
@@ -86,12 +151,11 @@ hr {
   &:nth-child(3){
     background-color: #666;
   }
-  h1 {
-    font-size: 15px;
-    letter-spacing: -2px;
-  }
 }
-
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  color:black;
+}
 ul {
   display: flex;
   justify-content: flex-end;
