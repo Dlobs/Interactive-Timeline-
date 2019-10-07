@@ -1,18 +1,23 @@
-
-
 .baseunit: .5rem;
 
 * {
   box-sizing: border-box;
 }
 
+#lifeline {
+  position:absolute;
+  top:10rem;
+}
+
 main {
-	 background-image:url("background.png");
 	background-color:#FFF599;
   overflow: hidden;
 }
-.p{
+#p2{
 	z-index:2;
+  position:absolute;
+  bottom:5rem;
+  right:5rem;
 }
 
 hr {
