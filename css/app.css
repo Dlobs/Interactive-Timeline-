@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+img:hover {
+  transform:rotate(5deg) scale(1.1);
+
+}
+img {
+  transition: all .4s;
+}
+
 #slide{
   position:absolute;
   top:-14rem;
@@ -28,16 +36,16 @@ ul .selected{
   font-family: 'PT Sans Narrow', sans-serif;
   position:absolute;
   top:0rem;
-  left:-5rem;
+  left:-6rem;
 
 }
 #date1{
   font-family: 'PT Sans Narrow', sans-serif;
   color:red;
-  font-size:40px;
+  font-size:30px;
   position:absolute;
   top:3.5rem;
- left:1rem;
+ left:2rem;
 }
 .parents{
   position:absolute;
@@ -106,6 +114,25 @@ hr {
 	left:25rem;
 	height:70rem;
 }
+#p0{
+position:absolute;
+top:4rem;
+}
+#date3{
+  font-family: 'PT Sans Narrow', sans-serif;
+  color:red;
+  font-size:30px;
+  position:absolute;
+  top:6rem;
+ left:3rem;
+
+}
+
+#ezmac{
+  position:absolute;
+  top:-10rem;
+  left:16rem;
+}
 #note2{
 	transform:rotate(20deg);
 	opacity:0.5;
@@ -119,6 +146,12 @@ hr {
 	position:absolute;
 	left:20rem;
 
+}
+#highlife{
+position:absolute;
+height:35rem;
+width:30rem;
+bottom:-5rem;
 }
 
 .musicnote{
@@ -156,6 +189,14 @@ h1{
   font-family: 'Fjalla One', sans-serif;
   color:black;
 }
+nav{
+  position:fixed;
+  bottom:0rem;
+  left:0;
+  width:100%;
+  background-color:#212121;
+}
+
 ul {
   display: flex;
   justify-content: flex-end;
