@@ -4,19 +4,21 @@
   box-sizing: border-box;
 }
 
-img:hover {
-  transform:rotate(5deg) scale(1.1);
-
-}
-img {
-  transition: all .4s;
-}
 
 #slide{
   position:absolute;
   top:-14rem;
   left:-14rem;
   opacity:0.5;
+}
+#date6{
+  color:red;
+  font-family: 'PT Sans Narrow', sans-serif;
+  position:absolute;
+  top:0rem;
+  left:-6rem;
+
+
 }
 
 #slide1{
@@ -35,7 +37,7 @@ ul .selected{
   color:red;
   font-family: 'PT Sans Narrow', sans-serif;
   position:absolute;
-  top:0rem;
+  top:2.5rem;
   left:-6rem;
 
 }
@@ -47,10 +49,21 @@ ul .selected{
   top:3.5rem;
  left:2rem;
 }
-.parents{
+
+#parents:hover {
+position:absolute;
+  bottom:-5rem;
+  transform:rotate(5deg) scale(1.1);
+
+}
+#parents{
   position:absolute;
   bottom:-5rem;
+   transition: all .4s;
+
 }
+
+  
 
 #note3{
   z-index:1;
@@ -66,6 +79,16 @@ ul .selected{
   top:4.4rem;
 }
 .PA{
+   opacity:0.7;
+  z-index:1;
+  position:absolute;
+  top:-5rem;
+  left:10rem;
+   transition: all .4s;
+
+}
+.PA:hover{
+    transform:rotate(5deg) scale(1.1);
   opacity:0.7;
   z-index:1;
   position:absolute;
@@ -113,6 +136,15 @@ hr {
 	top:-15rem;
 	left:25rem;
 	height:70rem;
+  transition: all .4s;
+}
+#malcom:hover{
+  transform: rotateY(180deg);
+  z-index:2;
+  position:absolute;
+  top:-15rem;
+  left:25rem;
+  height:70rem;
 }
 #p0{
 position:absolute;
@@ -153,13 +185,19 @@ height:35rem;
 width:30rem;
 bottom:-5rem;
 }
-
+.musicnote:hover{
+  z-index:2;
+  position:absolute;
+  top:25px;
+  left:2px;
+  transform:rotate(5deg) scale(1.1);
+}
 .musicnote{
 	z-index:2;
 	position:absolute;
 	top:25px;
 	left:2px;
-
+transition:all .4s;
 }
 .wrapper {
   // width:100%;
