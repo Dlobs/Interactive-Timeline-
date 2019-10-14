@@ -194,6 +194,11 @@ top:-37rem;
   top:-1.5rem;
   left:-3rem;
 }
+#macforever{
+  position:absolute;
+  top:-9rem;
+  right:0rem;
+}
 #note3{
   z-index:1;
   position:absolute;
