@@ -92,12 +92,50 @@ top:-4rem;
   top:13rem;
   opacity:0.5;
 }
+.goodam{
+  position:absolute;
+  top:-1rem;
+  left:12rem;
+}
+#intro{
+  font-weight: 100;
+    font-size: 1.75;
+    color: #fff;
+    align-content:center;
+}
 #slide2:hover{
   transform:rotate(5deg) scale(1.1);
   position:absolute;
   right:16.5rem;
   top:13rem;
   opacity:0.5;
+}
+.headmac{
+  position:absolute;
+  top:-1rem;
+  left:12rem;
+}
+.wmwso{
+  position:absolute;
+  bottom:0rem;
+  right:-5rem;
+}
+.REM{
+  position:absolute;
+  top:-5rem;
+  left:12rem;
+}
+.macadelic:hover{
+  transform:rotate(360deg) scale(1.1);
+  position:absolute;
+  top:-5rem;
+  left:12rem;
+}
+.macadelic{
+  position:absolute;
+  top:-5rem;
+  left:12rem;
+  transition: all .4s;
 }
 #date6{
   color:red;
@@ -144,6 +182,10 @@ ul .selected{
   top:4rem;
  left:2rem;
 }
+.menu .selected a {
+  font-weight: 900;
+  color: #fff;
+}
 
 #parents:hover {
 position:absolute;
@@ -184,6 +226,7 @@ top:-37rem;
  left:3rem;
 
 }
+
 #p15{
   position:absolute;
   top:-25rem;
@@ -312,11 +355,17 @@ top:4rem;
  left:3rem;
 
 }
-
+#ezmac:hover{
+   position:absolute;
+  top:-10rem;
+  left:16rem;
+    transform:rotate(5deg) scale(1.1);
+}
 #ezmac{
   position:absolute;
   top:-10rem;
   left:16rem;
+  transition: all .4s;
 }
 #note2{
 	transform:rotate(20deg);
@@ -332,11 +381,20 @@ top:4rem;
 	left:20rem;
 
 }
+#highlife:hover{
+  position:absolute;
+height:35rem;
+width:30rem;
+bottom:-3rem;
+ transform:rotate(5deg) scale(1.1);
+}
 #highlife{
 position:absolute;
 height:35rem;
 width:30rem;
 bottom:-3rem;
+transition: all .4s;
+}
 }
 .musicnote:hover{
   z-index:2;
@@ -410,14 +468,54 @@ ul {
   }
 }
 
+
+@media only screen and (max-width: 480px) {
+
+.full {
+
+display:block;
+
+width:100%;
+
+}
+
+}
+@media screen and (max-width: 39.9375em) {
+  header {
+    position:fixed;
+    top:0rem;
+
+
+  }
+}
+
 @media screen and (min-width: 40em){
 
-	.menu {
-		justify-content: flex-end;
-	}
 
-	.introduction {
-		margin: 0;
-	}
+
+  header h1 {
+    position:fixed;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .menu {
+    justify-content: flex-end;
+  }
+
+  .menu li {
+    margin-bottom: 0;
+  }
+
+  main {
+    display: grid;
+    height: 90vh;
+  }
+
+  main .grid-container {
+    margin: auto;
+  }
+
+ 
 
 }
